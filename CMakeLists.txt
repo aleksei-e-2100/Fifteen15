@@ -30,16 +30,16 @@ qt_add_qml_module(${PROJECT_NAME}
             Images/info.png
             Images/settings.png
             Images/stack.png
-        RESOURCES
-            android/AndroidManifest.xml
-            android/build.gradle
-            android/res/values/libs.xml
-            android/res/xml/qtprovider_paths.xml
-            android/gradle/wrapper/gradle-wrapper.jar
-            android/gradle/wrapper/gradle-wrapper.properties
-            android/gradle.properties
-            android/gradlew
-            android/gradlew.bat
+        # RESOURCES
+        #    android/AndroidManifest.xml
+        #    android/build.gradle
+        #    android/res/values/libs.xml
+        #    android/res/xml/qtprovider_paths.xml
+        #    android/gradle/wrapper/gradle-wrapper.jar
+        #    android/gradle/wrapper/gradle-wrapper.properties
+        #    android/gradle.properties
+        #    android/gradlew
+        #    android/gradlew.bat
 )
 
 set_property(TARGET ${PROJECT_NAME}
